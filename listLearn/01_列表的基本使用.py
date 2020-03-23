@@ -20,4 +20,12 @@ newlist=['a','b','c']
 mylist.extend(newlist)
 
 
+# 删除
+# remove可以删除指定元素
+mylist.remove("1")
+# pop默认可以弹出列表中最后一个元素
+mylist.pop()
+mylist.pop(0)
+# 清空列表
+# mylist.clear()
 print(mylist)
